@@ -1,61 +1,193 @@
-  <!-- BEGIN (write your solution here) -->
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Портфолио</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Footer-with-social-icons.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Fonts Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>Портфолио!</title>
   </head>
   <body>
-<div id="header">
-  <h1>Орест Козель</h1>
-  <h3>Веб-разработчик</h3>
-<p><a href="mailto:slowyjkee@gmail.com">slowyjkee@gmail.com</a><a href="https://slowyjkee.github.io/">&#160;&#160;&#160;&#160;&#160;&#160;slowyjkee.github.io/</a></p>
-Занимался оптимизацией и поддержанием веб-ресурса крупной фирмы, который написал на CMS (Opencart),
-есть небольшой опыт работы с JS Фреймворком (Meteorit/MongoDB) - разработка мобильного приложения, с которым
-сталкивался в университете. Есть портфолио из нескольких сайтов, верстал при помощи Bootstrap
-(HTML5, CSS3, LESS, Система контроля версий - Git).В последнее время начал увлекаться Python, Django.
-Также некоторое время был системным администратором (Linux Ubuntu, Windows 2008 Server и тд).
-Выполнял небольшие задачи - следил за бесперебойной работой сервера, бекап и т.п. .
-По образованию проектировщик ИС, в университете чаще всего работали с БД,
-имею опыт разработки информационных систем, MYSQL Workbench, Ramus.
-По зарплате особых предпочтений нет, главное поучаствовать в крупных проектах и приобрести ценный опыт для дальнейшего роста.
-</div>
-<div id="main">
-  <h1>Опыт работы</h1>
-  <hr>
 
-  <h2>ООО "Газоны Канады"</h2>
-  <p>Веб-администратор, 2014-2016</p>
-  <ul>
-    <li>Работа с SEO и контекстной рекламой</li>
-    <li>Разработка информационных систем</li>
-    <li>Написание и поддержка сайта на CMS</li>
-  </ul>
-  <br>
-  <h2>ООО "Мятлик"</h2>
-  <p>Junior Front-end, 2016-2017</p>
-  <ul>
-    <li>Верстка HTML5,CSS3</li>
-    <li>Участие в разработке проектов компании</li>
-    <li>Программирование JS</li>
-  </ul>
-  <h1>Образование</h1>
-  <hr>
-<h3> Российский экономический университет им.Плеханова</h3>
-  <p>Бакалавр прикладной информатики, 2013-2018</p>
-<h3>Хекслет</h3>
-<p>Курсы по программированию (Meteor, JS, Front-end)</p>
-<p>HTML-Academy(HTML5,CSS3,Bootstrap,Git)
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Web-Dev
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="smooth-scroll navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#mid">Портфолио
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-me">Обо мне</a>
+                </li>
+                <li class="nav-item">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#feedback">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+          <header id="top-content">
+            <div class="container-fluid">
+                <img src="img/img.png" class="rounded mx-auto d-block" width="250px"alt="">
+                <h1 class="name my-auto">Портфолио</h1>
+                <hr class="star-primary">
+                <span class="skills align-middle">Web-Разработчик - HTML-Верстальщик - CMS - JavaScript</span>
+              </div>
+          </header>
+
+          <section id="mid">
+            <div class="container-fluid">
+              <h2 class="align-middle">Мои работы</h2>
+
+              <div class="row">
+            <div class="middle col-sm-4 align-middle">
+              <a class="rounded mx-auto d-block" href="#"><img src="img/Site4.png" alt=""></a>
+            </div>
+            <div class="middle col-sm-4 align-middle">
+              <a class="rounded mx-auto d-block" href="#"><img src="img/Site4.png" alt=""></a>
+            </div>
+            <div class="middle col-sm-4 align-middle">
+              <a class="rounded mx-auto d-block" href="#"><img src="img/Site4.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Фидбэк
+      <section id="form">
+    <div class="container-fluid">
+      <h2 class="form-h2 align-middle">Связь со мной!</h2>
+  <div class="row">
+<div class="col-md-12">
+   <form action="./mail.php" method="post">
+<div class="form-group">
+   <label for="name">Ваше имя:</label>
+ <input type="name" name="name" class="form-control" id="name" placeholder="Имя">
 </div>
-<div id="footer">Орест Козель
-<p>Проезд Кадомцева д.15, Москва, Россия; +79853643627, slowyjkee@gmail.com</p>
+<div class="form-group">
+   <label for="email1">E-mail:</label>
+   <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
 </div>
+<div class="form-group">
+   <label for="phone">Номер телефона:</label>
+   <input type="phone" name="phone" class="form-control" id="phone" placeholder="Телефон">
+</div>
+<div class="form-group">
+   <label for="message">Сообщение:</label>
+   <textarea class="form-control" name="message" rows="3"></textarea>
+</div>
+   <button type="submit" class="btn btn-info">Отправить сообщение</button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+-->
+<section id="about-me">
+  <div class="container-fluid">
+      <h1 class="align-middle">Мои навыки</h1>
+      <hr class="star-light">
+    <div class="row">
+
+     <div class="middle col-sm-4 align-middle">
+       <h2 class="aligne-middle">HTML-Верстальщик</h2>
+       <a class="rounded mx-auto d-block" href="#"><img src="img/design.svg" alt=""></a>
+        <span class="text-content">HTML5/CSS3 верстка, кроссбраузерная верстка, адаптивная верстка, SASS, Bootstrap, Photoshop, Linux, начальный уровень JavaScript, опыт работы с Meteor(Angular/MongoDB)</span>
+     </div>
+     <div class="middle col-sm-4 align-middle">
+       <h2 class="aligne-middle">Веб-разработчик</h2>
+       <a class="rounded mx-auto d-block" href="#"><img src="img/frontend.svg" alt=""></a>
+        <span class="text-content">Опыт разработки интернет-магазинов на CMS платформах, наполнение сайтов контентом, составление семантического ядра и работа с SEO-Оптимизацией.</span>
+     </div>
+     <div class="middle col-sm-4 align-middle">
+       <h2 class="aligne-middle">Проектировщик</h2>
+       <a class="rounded mx-auto d-block" href="#"><img src="img/backend.svg" alt=""></a>
+        <span class="text-content">Проектирование бизнес-моделей при помощи нотаций IDEF0, построение CASE-Диаграмм, Работа с БД (Postgres, Mysql), Ramus, Modelio, MySql Workbench.</span>
+     </div>
+    </div>
+  </div>
+</section>
+      <!--Feedback-->
+      <section id="feedback" style="background-image: url('img/bg.jpg');">
+        <div class="container">
+          <h3>Связь со мной!</h3>
+          <hr class="star-light">
+          <div class="row form-color">
+          <div class="col-sm-12  align-middle">
+              <div class="well" style="margin-top: 10%;">
+          <form role="form" id="contactForm" data-toggle="validator" class="shake">
+      <div class="row">
+            <div class="form-group col-sm-12">
+                <label for="name" class="h4">Имя</label>
+                <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-sm-12">
+                <label for="email" class="h4">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Введите email" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+        <div class="form-group col-sm-12">
+       <label for="message" class="h4 ">Сообщение</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Введите сообщение" required></textarea>
+        </div>
+        </div>
+        <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Отправить!</button>
+<div id="msgSubmit" class="h3 text-center hidden"></div>
+        </form>
+        </div>
+        </section>
+
+      <!-- Футер -->
+          <footer id="myFooter">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-md-4 myCols">
+                          <h5>Обо мне</h5>
+                          <p class="About">Здравствуйте! Меня зовут Орест, мне 23 года. Я вот только закончил университет РЭУ им.Плеханова по специальности прикладная информатика, люблю играть на укулеле, видеомонтажировать и моя мечта - стать успешным фроент-енд разработчиком!</p>
+                      </div>
+                      <div class="col-md-4 myCols socials">
+                          <h5>Я в социальных сетях!</h5>
+                          <div class="social-networks">
+                              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                              <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+                              <a href="#" class="vkontakte"><i class="fa fa-vk"></i></a>
+                          </div>
+
+                      </div>
+                      <div class="col-md-4 myCols">
+                          <h5>Адрес</h5>
+                        <p>
+                          Российская федерация, г.Москва, метров ВДНХ
+                        </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-copyright">
+                  <p>© 2018 Copyright</p>
+              </div>
+      </footer>
   </body>
+  <script  type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/validator.min.js"></script>
+  <script type="text/javascript" src="js/form-scripts.js"></script>
 </html>
-
-<!-- END -->
