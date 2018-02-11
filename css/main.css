@@ -1,0 +1,151 @@
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+
+h1.name{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+hr.star-light,
+hr.star-primary {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px; }
+
+.skills {
+text-align:center;
+display: block;
+}
+.main{
+  background-color: #FFFFFF;
+}
+.inline-block{
+  display: block;
+}
+#top-content{
+  background-color:#00b5ec;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+@media (max-width: 576px){
+  #top-content{
+  background-color:#00b5ec;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  float: left;
+  }
+
+}
+#about-me{
+  background-color:#00b5ec;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+#about-me h1{
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+#about-me img{
+  width: 420px;
+  align-items: center;
+}
+#mid{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+#mid img{
+    padding: 40px;
+    overflow-y: hidden;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 550px;
+    display: block;
+    overflow-x: hidden;
+    padding-left: 0px;
+  }
+#mid img:hover{
+color: #00b5ec;
+}
+#feedback{
+  background-image:url(img/bg-01.jpg);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.form-group label{
+  color: white;
+}
+
+#feedback h3{
+  padding-bottom: 30px;
+  color: #FFFFFF;
+}
+/*
+.form-group{
+  border-bottom: 1px solid #adadad;
+}
+*/
+#feedback input{
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+#feedback textarea{
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+input#name.form-control,
+input#email.form-control,
+textarea#message.form-control{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#feedback button{
+  background-color: #02b5ec
+}
+label.h4{
+  padding-top: 10px;
+}
+.help-block li{
+  color: #FFFFFF;
+}
+#feedback.form-color{
+  background-color: #FFFFFF;
+}
+#myFooter p.About{
+  text-align: justify;
+}
+.socials{
+  display: inline-block;
+}
+.fa-vk:hover{
+  color: blue;
+}
+.fa-instagram:hover{
+  color:
+}
+
+@media (min-width: 1200px){
+
+}
+@media (min-width: 768px){
+
+}
