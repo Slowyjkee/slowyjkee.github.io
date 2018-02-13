@@ -47,8 +47,6 @@ display: block;
 }
 #about-me{
   background-color:#00b5ec;
-  padding-left: 250px;
-  padding-right: 250px;
   padding-bottom: 150px;
   padding-top: 100px;
 }
@@ -143,9 +141,35 @@ label.h4{
   color:
 }
 
-@media (min-width: 1200px){
-
-}
 @media (min-width: 768px){
-
+#mid img{
+  min-width: 300px;
+}
+#about-me p{
+  padding-top: 30px;
+  font-size: 1.5rem ;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+}
+@media (max-width: 524px){
+  #mid img{
+    max-width: 400px;
+    padding-left: 40px;
+  }
+  #about-me{
+    background-color:#00b5ec;
+    padding-bottom: 150px;
+    padding-top: 100px;
+  }
+  #about-me h2{
+    font-size: 1rem;
+  }
+  #about-me span{
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+  #about-me img{
+    max-width: 300px;
+  }
 }
