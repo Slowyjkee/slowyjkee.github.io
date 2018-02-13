@@ -7,7 +7,7 @@ $EmailTo = "Slowyjkee@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text
-$Body .= "Имя: ";
+$Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
 
@@ -15,7 +15,7 @@ $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 
-$Body .= "Сообщение: ";
+$Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
